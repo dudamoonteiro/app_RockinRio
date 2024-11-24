@@ -1,6 +1,6 @@
 # Rock in Rio App
 
-Este é um exemplo de aplicação Flutter para exibir atrações do Rock in Rio. Abaixo está o código completo:
+Este é um exemplo de aplicação Flutter para exibir atrações do Rock in Rio. Abaixo está o código completo,entretanto, deixo claro que o desenvolvimento foi feito através da ferramenta online DartPad, usada pelo professor aplicador do curso!
 
 ```dart
 import 'package:flutter/material.dart';
