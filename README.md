@@ -1,4 +1,8 @@
-# app_RockinRio
+# Rock in Rio App
+
+Este é um exemplo de aplicação Flutter para exibir atrações do Rock in Rio. Abaixo está o código completo:
+
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -102,16 +106,15 @@ class AtracaoPage extends StatelessWidget {
           children: [
             for (var tag in atracao.tags) Chip(label: Text('#$tag')),
             const SizedBox(height: 16),
-           ElevatedButton(
-            onPressed: () {
-           Navigator.pop(context);
-    },
-            style: ElevatedButton.styleFrom(
-           backgroundColor: Colors.pink,
-  ),
-           child: const Text('Voltar'),
-),
-
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.pink,
+              ),
+              child: const Text('Voltar'),
+            ),
           ],
         ),
       ),
